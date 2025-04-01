@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CPlayer">
+      <UniqueIdentifier>{c7f65f80-391e-4aa2-a847-2c5910206304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{58252ec6-6467-427c-914a-425c79de4341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMonster">
+      <UniqueIdentifier>{bdeec920-92dc-4211-9e69-34508488d6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDatabase">
+      <UniqueIdentifier>{9d13afe0-cda5-467d-9775-5297333d9e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScene">
+      <UniqueIdentifier>{bf146619-48df-4b97-9172-a288a93a19f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScene\CMainScene">
+      <UniqueIdentifier>{f0816547-3c64-4554-a83a-ff9435606005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScene\CLobbyScene">
+      <UniqueIdentifier>{82c8061c-7e03-4a03-ac48-24302216e328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScene\CFieldScene">
+      <UniqueIdentifier>{5d15666e-ba26-4d06-b828-4334380cbabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CScene\CInfoScene">
+      <UniqueIdentifier>{c8d3b6a0-03fb-4daa-8fcb-1d4ad9464d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{495cdbbb-bd91-448a-88ce-19b822f4e4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CSceneManager">
+      <UniqueIdentifier>{84f61547-9b6b-4c75-a2f6-f4fe5f8ed38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CMonsterManager">
+      <UniqueIdentifier>{ac86cac1-efad-46f8-9688-c7bcedb6e671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CInventory">
+      <UniqueIdentifier>{8f54e3a1-568d-4a47-8673-48d675c85594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CItem">
+      <UniqueIdentifier>{95685697-7aff-45e6-9ed1-c766e4768022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CInventory\CItemSlot">
+      <UniqueIdentifier>{5927de71-9dd3-494e-8f2b-4d9a9de4d3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CBattleManager">
+      <UniqueIdentifier>{675decf6-bea0-4125-8142-86b83b261671}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterManager.h">
+      <Filter>Manager\CMonsterManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CDatabase.h">
+      <Filter>CDatabase</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>CScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainScene.h">
+      <Filter>CScene\CMainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Manager\CSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneLobby.h">
+      <Filter>CScene\CLobbyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CInfoScene.h">
+      <Filter>CScene\CInfoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CFieldScene.h">
+      <Filter>CScene\CFieldScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>CInventory</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>CItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemSlot.h">
+      <Filter>CInventory\CItemSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleManager.h">
+      <Filter>Manager\CBattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainScene.cpp">
+      <Filter>CScene\CMainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Manager\CSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneLobby.cpp">
+      <Filter>CScene\CLobbyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CInfoScene.cpp">
+      <Filter>CScene\CInfoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterManager.cpp">
+      <Filter>Manager\CMonsterManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CDatabase.cpp">
+      <Filter>CDatabase</Filter>
+    </ClCompile>
+    <ClCompile Include="CFieldScene.cpp">
+      <Filter>CScene\CFieldScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleManager.cpp">
+      <Filter>Manager\CBattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
