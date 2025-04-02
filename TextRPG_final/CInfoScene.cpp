@@ -26,6 +26,6 @@ void CInfoScene::Update()
 void CInfoScene::Render()
 {
 	m_pPlayer->statusRender();
-	cout << "==========" << endl;
+	m_pPlayer->inventoryRender();
 	cout << "(³ª°¡±â 0 ) : ";
 }

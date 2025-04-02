@@ -19,8 +19,17 @@ void CFieldScene::Update()
 	while (true)
 	{
 		Clear();
-		cout << '[' << iFloor << "F]" << endl;
-		cout << "==========" << endl; 
+		if (iFloor > 10)
+		{
+			cout << "==========" << endl;
+			cout << "던전 완료" << endl;
+			cout << "==========" << endl;
+			Sleep(1000);
+			m_pSceneManager->changeScene(SCENE_LOBBY);
+			CGame::getInstance().getPlayer()->is_DeadInit();
+			return;
+		}
+
 		eRes = m_upBattleManager->Update(iFloor);
 		if (eRes == WIN)
 		{
@@ -30,6 +39,7 @@ void CFieldScene::Update()
 		else
 		{
 			m_pSceneManager->changeScene(SCENE_LOBBY);
+			CGame::getInstance().getPlayer()->is_DeadInit();
 			return;
 		}
 	}
@@ -39,3 +49,5 @@ void CFieldScene::Render()
 {
 
 }
+
+

@@ -1,0 +1,11 @@
+ID,ItemName,ItemType,Attack,Defence,IncreaseMaxHP,HealAmount
+1,Potion,Consume,0,0,0,10
+2,Advanced Potion,Consume,0,0,0,15
+3,Iron Armor,Equipment,0,5,0,0
+4,Iron Sword,Equipment,5,0,0,0
+5,HP Ring,Equipment,0,0,10,0
+6,Diamond Sword,Equipment,20,0,0,0
+7,Diamond Armor,Equipment,0,20,0,0
+8,All Ring,Equipment,5,5,5,0
+9,um,Equipment,10,10,10,0
+10,umum,Equipment,15,15,15,0

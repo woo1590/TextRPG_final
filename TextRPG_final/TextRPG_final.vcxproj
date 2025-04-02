@@ -135,12 +135,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CConsumeItem.h" />
     <ClInclude Include="CDatabase.h" />
     <ClInclude Include="CBattleManager.h" />
+    <ClInclude Include="CEquipItem.h" />
     <ClInclude Include="CGame.h" />
     <ClInclude Include="CInfoScene.h" />
     <ClInclude Include="CInventory.h" />
     <ClInclude Include="CItem.h" />
+    <ClInclude Include="CItemManager.h" />
     <ClInclude Include="CItemSlot.h" />
     <ClInclude Include="CMainScene.h" />
     <ClInclude Include="CMonster.h" />
@@ -150,14 +153,20 @@
     <ClInclude Include="CFieldScene.h" />
     <ClInclude Include="CSceneLobby.h" />
     <ClInclude Include="CSceneManager.h" />
+    <ClInclude Include="CUtility.h" />
     <ClInclude Include="func.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CConsumeItem.cpp" />
     <ClCompile Include="CDatabase.cpp" />
     <ClCompile Include="CBattleManager.cpp" />
+    <ClCompile Include="CEquipItem.cpp" />
     <ClCompile Include="CGame.cpp" />
     <ClCompile Include="CInfoScene.cpp" />
+    <ClCompile Include="CInventory.cpp" />
+    <ClCompile Include="CItemManager.cpp" />
+    <ClCompile Include="CItemSlot.cpp" />
     <ClCompile Include="CMainScene.cpp" />
     <ClCompile Include="CMonster.cpp" />
     <ClCompile Include="CMonsterManager.cpp" />
@@ -166,6 +175,7 @@
     <ClCompile Include="CSceneLobby.cpp" />
     <ClCompile Include="CSceneManager.cpp" />
     <ClInclude Include="Define.h" />
+    <ClCompile Include="CUtility.cpp" />
     <ClCompile Include="func.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">

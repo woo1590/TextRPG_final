@@ -61,6 +61,18 @@
     <Filter Include="Manager\CBattleManager">
       <UniqueIdentifier>{675decf6-bea0-4125-8142-86b83b261671}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CItem\CConsumeItem">
+      <UniqueIdentifier>{4b653eed-d8a6-4a10-9b76-514934dacfc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUtility">
+      <UniqueIdentifier>{0abd2ca1-96e6-4347-9667-f3f820354016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CItem\CEquipItem">
+      <UniqueIdentifier>{8d965057-4097-4193-833c-7a014d08b4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CItemManager">
+      <UniqueIdentifier>{af4c6e0b-98cc-47e3-ab12-769438768820}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -117,6 +129,18 @@
     <ClInclude Include="Define.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="CConsumeItem.h">
+      <Filter>CItem\CConsumeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtility.h">
+      <Filter>CUtility</Filter>
+    </ClInclude>
+    <ClInclude Include="CEquipItem.h">
+      <Filter>CItem\CEquipItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemManager.h">
+      <Filter>Manager\CItemManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -160,6 +184,24 @@
     </ClCompile>
     <ClCompile Include="func.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>CInventory</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemSlot.cpp">
+      <Filter>CInventory\CItemSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsumeItem.cpp">
+      <Filter>CItem\CConsumeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtility.cpp">
+      <Filter>CUtility</Filter>
+    </ClCompile>
+    <ClCompile Include="CEquipItem.cpp">
+      <Filter>CItem\CEquipItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemManager.cpp">
+      <Filter>Manager\CItemManager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

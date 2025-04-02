@@ -3,17 +3,19 @@
 #include "CSceneManager.h"
 #include "CMonsterManager.h"
 #include "CPlayer.h"
-
+#include "CItemManager.h"
 
 void CGame::Initialize()
 {
     m_pSceneManager = new CSceneManager;
     m_pMonsterManager = new CMonsterManager(10);
     m_pPlayer = new CPlayer;
+    m_pItemManager = new CItemManager(10);
 
     m_pSceneManager->Initialize();
     m_pMonsterManager->Initialize();
     m_pPlayer->Initialize();
+    m_pItemManager->Initialize();
 }
 
 void CGame::Update()
@@ -29,6 +31,7 @@ void CGame::Release()
     Safe_Delete<CSceneManager*>(m_pSceneManager);
     Safe_Delete<CMonsterManager*>(m_pMonsterManager);
     Safe_Delete<CPlayer*>(m_pPlayer);
+    Safe_Delete<CItemManager*>(m_pItemManager);
 }
 
 void CGame::Run()
@@ -51,4 +54,9 @@ CMonsterManager* CGame::getMonsterManager()
 CPlayer* CGame::getPlayer()
 {
     return m_pPlayer;
+}
+
+CItemManager* CGame::getItemManager()
+{
+    return m_pItemManager;
 }

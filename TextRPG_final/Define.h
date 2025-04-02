@@ -9,9 +9,7 @@ enum SCENE
 {
 	SCENE_MAIN = 1,
 	SCENE_LOBBY,
-	SCENE_INVENTORY,
 	SCENE_INFO,
-	SCENE_SHOP,
 	SCENE_FIELD,
 	SCENE_END
 };
@@ -40,9 +38,11 @@ struct tagMonsterInfo
 
 struct tagItemInfo
 {
-	ITEM_TYPE m_Type = Default;
 	int m_iID = 0;
 	std::string m_sName = "";
+	std::string m_sItemType = "";
 	int m_iAttack = 0;
+	int m_iDefence = 0;
+	int m_iIncreaseMaxHP = 0;
 	int m_iHealAmount = 0;
 };

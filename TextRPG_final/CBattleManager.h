@@ -18,4 +18,5 @@ public:
 	void		createMonster(int _iIdx);
 	void		delMonster();
 	void		Battle();
+	void		checkReward();
 };

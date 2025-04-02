@@ -6,6 +6,7 @@ class CDatabase
 {
 private:
 	std::unordered_map<ID, tagMonsterInfo> m_umMonsterDB;
+	std::unordered_map<ID, tagItemInfo> m_umItemDB;
 
 	CDatabase() {}
 	~CDatabase(){}
@@ -21,6 +22,8 @@ public:
 	void Initialize();
 
 	void loadMonster();
+	void loadItem();
 
-	tagMonsterInfo getMonster(ID _monsterID);
+	tagMonsterInfo	getMonster(ID _monsterID);
+	tagItemInfo		getItem(ID _itemID);
 };

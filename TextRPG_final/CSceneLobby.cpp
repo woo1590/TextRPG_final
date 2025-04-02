@@ -9,7 +9,7 @@ void CSceneLobby::Update()
 		Clear();
 		Render();
 		cin >> iInput;
-		if (InputValid(iInput, 1, 4))
+		if (InputValid(iInput, 1, 3))
 		{
 			switch (iInput)
 			{
@@ -20,9 +20,6 @@ void CSceneLobby::Update()
 				m_pSceneManager->changeScene(SCENE_INFO);
 				return;
 			case 3:
-				m_pSceneManager->changeScene(SCENE_INVENTORY);
-				return;
-			case 4:
 				m_pSceneManager->changeScene(SCENE_MAIN);
 				return;
 			}
@@ -35,8 +32,7 @@ void CSceneLobby::Render()
 	cout << "==========" << endl;
 	cout << "1. 던전" << endl;
 	cout << "2. 플레이어 정보" << endl;
-	cout << "3. 인벤토리" << endl;
-	cout << "4. 메인메뉴" << endl;
+	cout << "3. 메인메뉴" << endl;
 	cout << "==========" << endl;
 	cout << "=>";
 }
