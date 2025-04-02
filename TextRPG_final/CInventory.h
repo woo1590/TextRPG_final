@@ -18,4 +18,5 @@ public:
 	CItemSlot* getEmptySlot();
 	void	addItem(CItem* _pItem, int _iAmount);
 	void	useItem(CItemSlot* _pItemSlot);
+	void	initInventory();
 };

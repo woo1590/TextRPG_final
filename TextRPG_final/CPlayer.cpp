@@ -31,6 +31,7 @@ void CPlayer::statusRender()
 	cout << '[' << m_sName << ']' << endl;
 	cout << "HP : " << m_iHP << endl;
 	cout << "Attack : " << m_iAttack << endl;
+	cout << "Defence : " << m_iDefence << endl;
 }
 
 void CPlayer::inventoryRender()
@@ -223,6 +224,11 @@ void CPlayer::is_DeadInit()
 	m_iAttack = 5;
 	m_iDefence = 5;
 	m_Alive = true;
+
+	for (auto& slot: m_vecItemSlot)
+	{
+		(*slot).initSlot();
+	}
 }
 
 std::string CPlayer::getName() const

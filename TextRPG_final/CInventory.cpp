@@ -92,3 +92,11 @@ void CInventory::useItem(CItemSlot* _pItemSlot)
 	}
 }
 
+void CInventory::initInventory()
+{
+	for (auto& inven : m_vecConsumeInven)
+	{
+		(*inven).initSlot();
+	}
+}
+
