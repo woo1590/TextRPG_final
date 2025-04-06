@@ -1,9 +1,11 @@
 #include "pch.h"
 #include "CSceneLobby.h"
+#include "CSceneManager.h"
 
 void CSceneLobby::Update()
 {
 	int iInput = 0;
+	CSceneManager* const asd = CGame::getInstance().getSceneManager(); //만약에 싱글톤으로 가져올거면 이렇게, 의존 x
 	while (true)
 	{
 		Clear();

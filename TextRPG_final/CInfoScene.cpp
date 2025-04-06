@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "CInfoScene.h"
+#include "CSceneManager.h"
 #include "CGame.h"
 #include "CPlayer.h"
 

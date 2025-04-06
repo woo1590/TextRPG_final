@@ -5,6 +5,7 @@ class CSceneManager;
 class CMonsterManager;
 class CBattleManager;
 class CItemManager;
+
 class CGame
 {
 private:

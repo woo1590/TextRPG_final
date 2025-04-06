@@ -29,3 +29,12 @@ CItem* CItemManager::getItem(int _iNum)
 {
 	return m_vecItems[_iNum];
 }
+
+void CItemManager::Release()
+{
+	for (auto& item : m_vecItems)
+	{
+		Safe_Delete<CItem*>(item);
+	}
+	m_vecItems.clear();
+}

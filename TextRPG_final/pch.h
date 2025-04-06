@@ -8,6 +8,8 @@
 #include <string>
 #include <ctime>
 #include <algorithm>
-
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
 using namespace std;
 

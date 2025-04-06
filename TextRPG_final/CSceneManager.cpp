@@ -38,10 +38,14 @@ void CSceneManager::Release()
 
 void CSceneManager::changeScene(SCENE _SceneNum)
 {
+
 	m_CurSceneNum = _SceneNum;
+	
 }
 
 SCENE CSceneManager::getCurScenenum()const
 {
 	return m_CurSceneNum;
 }
+
+

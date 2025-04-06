@@ -238,6 +238,7 @@ std::string CPlayer::getName() const
 
 void CPlayer::Release()
 {
+	Safe_Delete<CInventory*>(m_pInventory);
 	for (vector<CItemSlot*>::iterator iter = m_vecItemSlot.begin();
 		iter != m_vecItemSlot.end(); ++iter)
 	{

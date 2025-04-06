@@ -9,7 +9,7 @@ private:
 	std::unordered_map<ID, tagItemInfo> m_umItemDB;
 
 	CDatabase() {}
-	~CDatabase(){}
+	~CDatabase() {}
 	CDatabase(const CDatabase& _ref) = delete;
 	CDatabase& operator=(CDatabase& _ref) = delete;
 public:

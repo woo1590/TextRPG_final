@@ -28,6 +28,11 @@ void CGame::Update()
 
 void CGame::Release()
 {
+    m_pSceneManager->Release();
+    m_pMonsterManager->Release();
+    m_pPlayer->Release();
+    m_pItemManager->Release();
+
     Safe_Delete<CSceneManager*>(m_pSceneManager);
     Safe_Delete<CMonsterManager*>(m_pMonsterManager);
     Safe_Delete<CPlayer*>(m_pPlayer);

@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "CMainScene.h"
+#include "CSceneManager.h"
 
 void CMainScene::Update()
 {

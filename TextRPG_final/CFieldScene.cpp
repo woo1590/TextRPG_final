@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "CFieldScene.h"
+#include "CSceneManager.h"
 #include "CBattleManager.h"
 #include "CPlayer.h"
 #include "CMonster.h"
@@ -26,7 +27,7 @@ void CFieldScene::Update()
 			cout << "==========" << endl;
 			Sleep(1000);
 			m_pSceneManager->changeScene(SCENE_LOBBY);
-			CGame::getInstance().getPlayer()->is_DeadInit();
+			CGame::getInstance().getPlayer()->is_DeadInit(); //여기도 이렇게 플레이어를 가져올게 아니라 field scene에 플레이어가 있어야됨
 			return;
 		}
 

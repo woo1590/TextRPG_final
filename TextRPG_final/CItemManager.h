@@ -13,4 +13,5 @@ public:
 
 	void		Initialize();
 	CItem*		getItem(int _iNum);
+	void		Release();
 };
